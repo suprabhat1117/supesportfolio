@@ -1,0 +1,79 @@
+/* contact-form css*/
+
+#contact__us{
+    background: var(--mainColor);
+}
+
+.contact__form{
+    max-width: 550px;
+    width: 100%;
+    margin: 0vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+}
+
+.contactUs__label{
+    margin: 0;
+    text-align: center;
+}
+
+.label{
+    display: block;
+    margin: 20px 0;
+}
+
+.input,.textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid var(--borderColor);
+    margin: 0 0 20px 0;
+}
+
+.form-control.input{
+    background: var(--secondaryColor);
+}
+
+input[type="text"]:focus,textarea:focus{
+    border-bottom: 1px solid rgb(255,0,106);
+}
+input[type="email"]:focus,textarea:focus{
+    border-bottom: 1px solid rgb(255,0,106);
+}
+
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+
+button[type="submit"]{
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    background:var(--buttonColor);
+    color: #fff;
+}
+
+.error{
+    color:red;
+}
+
+.error-border{
+    border-bottom:1px solid red;
+}
+
+/* contact us */
+@media screen and (max-width:600px){
+    .main__content h1{
+        word-break: keep-all;
+    }
+}
+
+/* CUSTOM CSS*/
+
+/* removing margin from button*/
+.mt-0{
+    margin: 0 !important;
+}
