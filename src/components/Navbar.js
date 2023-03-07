@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar__container">
-                <a href="/" id="navbar__logo">弓UPES<sup className="beta">BETA</sup></a>
+                <a href="/supesportfolio" id="navbar__logo">弓UPES<sup className="beta">BETA</sup></a>
                 <div className="navbar__toggle" id="mobile-menu" onClick={toggleAnimateHamMenu}>
                     <span className="bar"></span>
                     <span className="bar"></span>
